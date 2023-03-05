@@ -1,0 +1,41 @@
+section#form {
+    background-color: #f5f8fa;
+    height: calc(100vh - 88px - 144px);
+}
+
+form {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label {
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+input {
+    font-size: 1.5rem;
+    margin-top: 8px;
+    padding: 0.5rem 1rem;
+    border: 1px solid #90a0b2;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    color: #063768;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 8.75px 32px 8.75px 16px;
+}
+
+.buttons {
+    margin-top: 32px;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+}

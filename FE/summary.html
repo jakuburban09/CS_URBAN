@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CS - Summary</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/other.css">
+    <link rel="stylesheet" href="styles/summary.css">
+    <script src="js/summary.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="headerContent breakpoint">
+            <a href="index.html">
+                <img src="images/logo_cs_2023.svg" alt="Ceska Sporitelna - Logo"></a>
+            <div>
+                <div class="header-info">
+                    <p>
+                        <a href="http://jakuburban.eu" target="_blank">Jakub Urban</a>
+                    </p>
+                    <p><small>SmartCase Designer</small></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="summary">
+        <div class="breakpoint vertical-align-center-outter">
+            <div class="vertical-align-center-inner">
+                <h1>Summary</h1>
+                <p>Here you can see a summary of the KYC form data. Clicking the submit button will send the data to our
+                    database.</p>
+                <table id="summaryTable">
+                    <tbody>
+                        <tr>
+                            <th>Field</th>
+                            <th>Value</th>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="buttons">
+                    <button class="button-secondary" onclick="event.preventDefault(); location.href='form.html'">Back to
+                        form</button>
+                    <button onclick="sendDataToBe()">Send data
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="breakpoint">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/jakuburban09/" target="_blank">LinkedIn</a></li>
+                <li><a href="http://jakuburban.eu" target="_blank">jakuburban.eu</a></li>
+                <li><a href="/Jakub Urban - LIGHT - CZ.pdf" target="_blank" download="">CV - Jakub Urban</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

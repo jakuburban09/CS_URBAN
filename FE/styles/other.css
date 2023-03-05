@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.3s;
+    max-height: 88px;
+}
+
+a:hover {
+    color: #fb5012;
+    transition-duration: 0.3s;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: black;
+    margin-bottom: 32px;
+}
+
+
+
+.breakpoint {
+    max-width: 992px;
+    padding: 0px 24px;
+    margin: 0 auto;
+    width: -webkit-fill-available;
+}
+
+.vertical-align-center-outter {
+    display: table;
+    height: 100%;
+}
+
+.vertical-align-center-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+
+header {
+    height: 88px;
+    background-color: rgba(40, 112, 237, 1);
+}
+
+.header-info {
+    margin: 21px 0px;
+}
+
+small {
+    color: white
+}
+
+.header-info>p {
+    margin-top: 0px;
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+.header-info>p:first-child {
+    margin-bottom: 6px !important;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+img {
+    height: 46px;
+    margin: 21px 0px;
+}
+
+button {
+    color: white;
+    background-color: #fb5012 !important;
+    border-color: #fb5012 !important;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 0.4rem;
+    padding: 8px 17px;
+    font-size: 16px;
+    font-weight: 600;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    transition-duration: 0.3s;
+    background-color: #ff4400 !important;
+    border-color: black !important;
+}
+
+.button-secondary {
+    background-color: white !important;
+    color: black !important;
+}
+
+footer {
+    height: 144px;
+    background-color: #bce4fa;
+}
+
+ul {
+    margin: 0px;
+    list-style: none;
+    padding: 33px 0px;
+    text-align: left;
+}
+
+ul>li {
+    margin-bottom: 6px;
+}
+
+li>a {
+    color: black;
+}
+
+.buttons {
+    margin-top: 32px;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+}

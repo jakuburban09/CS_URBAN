@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CS - Data from backend</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/other.css">
+    <link rel="stylesheet" href="styles/summary.css">
+    <script src="js/dataFromBackend.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="headerContent breakpoint">
+            <a href="index.html">
+                <img src="images/logo_cs_2023.svg" alt="Ceska Sporitelna - Logo"></a>
+            <div>
+                <div class="header-info">
+                    <p>
+                        <a href="http://jakuburban.eu" target="_blank">Jakub Urban</a>
+                    </p>
+                    <p><small>SmartCase Designer</small></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="dataFromBackend">
+        <div class="breakpoint vertical-align-center-outter">
+            <div class="vertical-align-center-inner">
+                <div>
+                    <h1>Data from backend</h1>
+                    <p>On this page you can see which companies have entered the KYC form.</p>
+                    <button onclick="showData()">GetData</button>
+                    <button class="button-secondary" onclick="location.href='index.html'">Back to welcome page</button>
+                    <table id="backendDataTable">
+                        <tbody id="backEndDataTableTbody">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="breakpoint">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/jakuburban09/" target="_blank">LinkedIn</a></li>
+                <li><a href="http://jakuburban.eu" target="_blank">jakuburban.eu</a></li>
+                <li><a href="/Jakub Urban - LIGHT - CZ.pdf" target="_blank" download="">CV - Jakub Urban</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

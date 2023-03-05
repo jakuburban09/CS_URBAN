@@ -1,0 +1,13 @@
+p {
+    margin-bottom: 32px;
+}
+
+section#welcomePage {
+    background-color: #f5f8fa;
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 88px - 144px);
+    position: relative;
+}

@@ -1,0 +1,33 @@
+p {
+    margin-bottom: 32px;
+}
+
+section#summary,
+section#dataFromBackend {
+    height: auto;
+    background-color: #f5f8fa;
+    height: calc(100vh - 88px - 144px);
+}
+
+table {
+    margin-top: 3rem;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 500px;
+}
+
+th,
+td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid #90a0b2;
+}
+
+th {
+    background-color: #bce4fa;
+}
+
+tr>td:nth-child(2) {
+    font-weight: 600;
+    color: #063768;
+}
